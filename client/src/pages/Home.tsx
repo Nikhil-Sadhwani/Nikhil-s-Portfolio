@@ -310,7 +310,7 @@ export default function Home() {
                       Contact Me
                     </button>
                     <button
-                      className={`border-2 border-purple-500 hover:bg-purple-600 text-purple-500 hover:text-white font-bold py-2 px-4 rounded ml-2`}
+                      className={`border-2 border-purple-500 hover:bg-purple-600 text-purple-500 hover:text-white font-bold py-2 px-4 rounded ml-2 mt-2 sm:mt-0`}
                       onClick={() => {
                         window.open(
                           "https://drive.google.com/file/d/18iin6hkD7aww_KsI_XYfO643-x67t2mo/view?usp=drive_link",
