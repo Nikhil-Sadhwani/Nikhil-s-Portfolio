@@ -56,7 +56,7 @@ export default function Card(props: Props) {
               key={index}
               className={`border-2  ${getColorByTag(
                 tag
-              )} hover:bg-opacity-[0.25] px-2 py-1 rounded-full`}
+              )} hover:bg-opacity-[0.25] px-2 py-1 rounded-full cursor-pointer`}
             >
               {tag}
             </span>

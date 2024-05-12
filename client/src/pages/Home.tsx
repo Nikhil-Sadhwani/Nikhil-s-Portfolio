@@ -97,8 +97,13 @@ export default function Home() {
 
   const numbers = Array.from({ length: 28 }, (_, i) => i + 1);
 
+  const handleTabs = (content: string, index: number) => {
+    setContent(content);
+    setActiveFileIndex(index);
+  };
+
   return (
-    <div className="flex min-h-[96vh] bg-zinc-900 text-white font-sans">
+    <div className="flex min-h-[92vh] bg-zinc-900 text-white font-sans">
       <div className="w-[60px] bg-zinc-800 flex flex-col justify-between">
         <div>
           {tabs.map((tab, index) => (
@@ -108,8 +113,7 @@ export default function Home() {
                 index === activeFileIndex ? "border-l-2 border-blue-500" : ""
               }`}
               onClick={() => {
-                setContent(tab.link);
-                setActiveFileIndex(index);
+                handleTabs(tab.link, index);
               }}
             >
               <svg
@@ -139,8 +143,7 @@ export default function Home() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               onClick={() => {
-                setContent("about.html");
-                setActiveFileIndex(4);
+                handleTabs("about.html", 4);
               }}
             >
               <path
@@ -214,20 +217,18 @@ export default function Home() {
         {open && (
           <div className="flex flex-col">
             {files.map((file, index) => (
-              <a
+              <button
                 key={index}
-                href="/"
                 className={`flex items-center  pl-4 py-1  hover:bg-zinc-600 ${
                   index === activeFileIndex ? "bg-zinc-600" : ""
                 }`}
                 onClick={() => {
-                  setContent(file.label);
-                  setActiveFileIndex(index);
+                  handleTabs(file.label, index);
                 }}
               >
                 <img src={file.logo} alt="File Icon" className="w-[10%]" />
                 <span className="ml-2">{file.label}</span>
-              </a>
+              </button>
             ))}
           </div>
         )}
@@ -245,8 +246,7 @@ export default function Home() {
                     : "text-zinc-500"
                 }`}
                 onClick={() => {
-                  setContent(file.label);
-                  setActiveFileIndex(index);
+                  handleTabs(file.label, index);
                 }}
               >
                 <img

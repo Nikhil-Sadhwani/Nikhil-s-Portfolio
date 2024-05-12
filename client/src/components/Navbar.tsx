@@ -25,9 +25,14 @@ const Navbar: FC = () => {
           className="w-[6%] h-[22px] mr-4 absolute left-4 lg:static"
         />
 
-        <ul className="text-zinc-300 hidden lg:flex space-x-4 hover:text-white font-medium">
+        <ul className=" hidden lg:flex space-x-4  font-medium">
           {NAV_LINKS.map((link, index) => (
-            <li key={index}>{link.text}</li>
+            <li
+              key={index}
+              className="text-zinc-300 hover:text-white cursor-pointer"
+            >
+              {link.text}
+            </li>
           ))}
         </ul>
       </div>
@@ -37,9 +42,9 @@ const Navbar: FC = () => {
         </span>
       </div>
       <div className="flex items-center space-x-1 absolute right-5">
-        <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-        <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-        <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+        <div className="w-3 h-3 bg-red-500 rounded-full cursor-pointer"></div>
+        <div className="w-3 h-3 bg-yellow-500 rounded-full cursor-pointer"></div>
+        <div className="w-3 h-3 bg-green-500 rounded-full cursor-pointer"></div>
       </div>
     </nav>
   );
