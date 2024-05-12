@@ -347,7 +347,7 @@ export default function Home() {
         )}
 
         {content === "Projects.js" ? (
-          <div className="custom-scrollbar bg-zinc-800 text-white p-8 overflow-y-auto h-[91vh]">
+          <div className="custom-scrollbar bg-zinc-800 text-white p-8 overflow-y-auto h-[86vh]">
             <h1 className="text-2xl mb-6 text-left">Stuff I've Built So Far</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
               {projectData.map((project, index) => (
@@ -360,7 +360,7 @@ export default function Home() {
         )}
 
         {content === "skill.json" ? (
-          <div className="custom-scrollbar bg-zinc-800 text-white p-8 font-mono text-lg overflow-y-auto h-[91vh]">
+          <div className="custom-scrollbar bg-zinc-800 text-white p-8 font-mono text-lg overflow-y-auto h-[86vh]">
             <h2 className="text-xl mb-4 text-left">Skills</h2>
             <div className="flex">
               <div>
@@ -411,7 +411,7 @@ export default function Home() {
         )}
 
         {content === "about.html" ? (
-          <div className="text-left p-8 overflow-y-auto h-[91vh]">
+          <div className="text-left p-8 overflow-y-auto h-[86vh]">
             <h1 className="text-2xl font-bold mb-4">
               A Little Bit About Me...
             </h1>
@@ -449,7 +449,7 @@ export default function Home() {
         )}
 
         {content === "contact.css" ? (
-          <div className="custom-scrollbar bg-zinc-800 text-white p-8 font-mono text-lg overflow-y-auto h-[91vh] flex justify-between">
+          <div className="custom-scrollbar bg-zinc-800 text-white p-8 font-mono text-lg overflow-y-auto h-[86vh] flex justify-between">
             <div className="w-full lg:w-[49%] ">
               {/* <div className="w-[49%] border-r-2 border-[#bd93f9]"> */}
               <h2 className="text-2xl font-bold mb-4 text-left">
@@ -459,7 +459,7 @@ export default function Home() {
               <div className="flex">
                 <div>
                   {numbers.map((num) => {
-                    if (num >= 7) {
+                    if (num > 7) {
                       return;
                     }
                     return (
