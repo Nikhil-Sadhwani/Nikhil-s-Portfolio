@@ -313,7 +313,7 @@ export default function Home() {
                       className={`border-2 border-purple-500 hover:bg-purple-600 text-purple-500 hover:text-white font-bold py-2 px-4 rounded ml-2`}
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1CpA8H6vJu09wctqeGETZFhdz_t0ZggeV/view?usp=drive_link",
+                          "https://drive.google.com/file/d/18iin6hkD7aww_KsI_XYfO643-x67t2mo/view?usp=drive_link",
                           "_blank"
                         );
                       }}
