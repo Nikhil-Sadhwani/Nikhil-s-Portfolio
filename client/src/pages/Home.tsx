@@ -15,14 +15,7 @@ const projectData: Project[] = [
     title: "Telegram Bot",
     description:
       "I built a full-stack application consisting of a Telegram weather bot and a React.js admin panel. This project demonstrates my proficiency in both backend and frontend development using the MERN stack (MongoDB, Express.js, React.js, Node.js) with TypeScript.Integrated with a weather API ( OpenWeather )",
-    tags: [
-      "ReactJS",
-      "ExpressJS",
-      "MySQL",
-      "NodeJS",
-      "Typescript",
-      "TailwindCSS",
-    ],
+    tags: ["ReactJS", "NestJS", "MySQL", "NodeJS", "Typescript", "TailwindCSS"],
     image: "telegrambot.png",
     link: "https://github.com/Nikhil-Sadhwani/TelegramBot_NestJS",
   },
@@ -520,7 +513,7 @@ export default function Home() {
                     Website:{" "}
                     <a
                       className="text-[#bd93f9] hover:border-b-2 hover:border-[#bd93f9]"
-                      href="/"
+                      href="https://nikhilsadhwani.vercel.app/"
                       target="_blank"
                     >
                       nikhilsadhwani

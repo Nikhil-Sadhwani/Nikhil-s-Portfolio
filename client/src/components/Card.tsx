@@ -21,6 +21,8 @@ export default function Card(props: Props) {
         return "border-[#fcbe61] hover:bg-[#fcbe61] ";
       case "ExpressJS":
         return "border-[#83cd29] hover:bg-[#83cd29]  ";
+      case "NestJS":
+        return "border-[#83cd29] hover:bg-[#83cd29]  ";
       case "MongoDB":
         return "border-[#439934] hover:bg-[#439934] ";
       case "TailwindCSS":
