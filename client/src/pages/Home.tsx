@@ -417,30 +417,19 @@ export default function Home() {
             </h1>
             <ul className="text-xl font-semibold list-disc pl-4 mb-4 mt-6">
               <li className="mb-6">
-                My name is Nikhil Sadhwani, and I graduated recently with a BCA.
-                I'm very eager to do some full-stack development, mostly in MERN
-                Stack technology, with TypeScript and Tailwind CSS. I'm
-                conversant with quite a number of languages, including Python,
-                PHP, MySQL, Java, and many others.
+                My name is Nikhil Sadhwani, and I graduated recently with a BCA. I am currently pursuing an MCA. I'm very eager to do some full-stack development, mostly in MERN Stack technology, with TypeScript and Tailwind CSS. I'm conversant with quite a number of languages, including Python, PHP, MySQL, Java, and many others.
               </li>
               <li className="mb-6">
-                I have completed my 3-month internship as a full-stack
-                developer, where i worked on Nest.js at the back end and
-                React.js at the front end. With it, I also worked on TypeScript
-                and MUI components, which has extended my knowledge of the
-                development field.
+                I have completed my 3-month internship as a full-stack developer, where I worked on Nest.js at the back end and React.js at the front end. With it, I also worked on TypeScript and MUI components, which has extended my knowledge of the development field.
               </li>
               <li className="mb-6">
-                I feel excited to learn and explore new things. With some
-                experience in both mobile application development and desktop
-                development, this has imbued me with new, more meaningfully
-                profound insight that I may now use to dive deep into the field
-                that I have chosen.
+                I worked as a frontend engineer for 5 months at Taiyo.ai, where I used Next.js with TypeScript and ElasticSearch for database manipulation. This experience significantly enhanced my understanding of modern web development practices.
               </li>
               <li className="mb-6">
-                Driven by a passion for technology and a commitment to
-                excellence, I am eager to contribute my skills and dedication to
-                innovative projects.
+                I feel excited to learn and explore new things. With some experience in both mobile application development and desktop development, this has imbued me with new, more meaningfully profound insight that I may now use to dive deep into the field that I have chosen.
+              </li>
+              <li className="mb-6">
+                Driven by a passion for technology and a commitment to excellence, I am eager to contribute my skills and dedication to innovative projects.
               </li>
             </ul>
           </div>
